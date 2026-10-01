@@ -1,0 +1,33 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- pytest ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+junit*.xml
+
+# --- Entornos virtuales ---
+.venv/
+venv/
+env/
+
+# --- Empaquetado ---
+build/
+dist/
+*.egg-info/
+
+# --- Editores / IDE ---
+.vscode/
+.idea/
+*.swp
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Variables de entorno / secretos ---
+.env
